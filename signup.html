@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" type="image/x-icon" href="spotifyIcon.ico">
+</head>
+<body>
+    <nav>
+        <img src="spotifyIcon.ico" alt="Spotify Logo">
+        <span>Spotify</span>
+    </nav>
+    <form id="signupForm">
+        <h2>Signup Form</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <div id="checkbox">
+            <input type="checkbox" id="terms" required>
+            <label for="terms" class="terms-text">I agree to the <a href="https://www.spotify.com/in-en/legal/end-user-agreement/" class="terms-link" target="_blank">Terms of Service</a></label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <hr><br>
+        <div id="log">
+            <p id="alac">Already have an account ?</p>
+            <a href="Login.html" id="log-in"> <p id="log-in">Sign-in Here</p></a>
+        </div>
+    </form>
+    <script src="signup.js"></script>
+</body>
+</html>

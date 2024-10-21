@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(48, 47, 47), black);
+}
+.container {
+    display: grid;
+    place-items: center;
+    height: 800px;
+}
+.login-box {
+    background-color: rgba(16, 15, 15, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    display: grid;
+    text-align: center;
+    grid-gap: 10px;
+    color: whitesmoke;
+}
+h2 {
+    margin: 0 0 20px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fafafa;
+    background-color: #131313;
+    border: 1px solid #fafafa;
+    box-sizing: border-box;
+}
+
+#login_btn {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #17ad4b;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    color: black;
+
+}
+
+#login_btn:hover {
+    background-color: #09782e;
+}
+
+hr {
+    width: 80%;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    color: #6a6a6a;
+}
+
+a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #131313;
+    padding: 30px 0;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+img {
+    padding-left: 40px;
+    width: 40px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+form {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    line-height: 40px;
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    padding: 32px;
+    color: #ccc;
+    font-size: x-small;
+    background-color: #151414;
+}
